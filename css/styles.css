@@ -2,9 +2,22 @@
   box-sizing: border-box;
 }
 
-/* html {
-  font-size: 62.5%;
-} */
+:root {
+  --hero-footer-dark-color: #1f2937;
+  --hero-main-text-color: #f9faf8;
+  --hero-secondary-text-color: #e5e7eb;
+  --header-link-text-color: #e5e7eb;
+  --header-logo-text-color: #f9faf8;
+  --cta-color: #3882f6;
+  --info-header-text-color: #1f2937;
+  --quote-section-bg: #e57eb;
+  --quote-text: #1f2937;
+}
+
+header {
+  background-color: var(--hero-footer-dark-color);
+  font-size: 18px;
+}
 
 nav {
   display: flex;
@@ -29,4 +42,26 @@ nav ul {
 
 nav ul a {
   text-decoration: none;
+  color: var(--header-link-text-color);
+}
+
+.hero {
+  background-color: var(--hero-footer-dark-color);
+}
+
+.hero .main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--hero-main-text-color);
+}
+
+.hero .secondary-text {
+  font-size: 18px;
+  color: var(--hero-secondary-text-color);
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: var(--info-header-text-color);
 }
