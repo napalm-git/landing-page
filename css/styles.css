@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -10,27 +12,28 @@
   --header-logo-text-color: #f9faf8;
   --cta-color: #3882f6;
   --info-header-text-color: #1f2937;
-  --quote-section-bg: #e57eb;
+  --quote-section-bg: #e5e7eb;
   --quote-text: #1f2937;
 }
 
 header {
   background-color: var(--hero-footer-dark-color);
   font-size: 18px;
-}
-
-nav {
+  color: var(--header-logo-text-color);
+  padding: 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--hero-footer-dark-color);
+  padding: 20px;
 }
 
-nav .logo {
+/* nav .logo {
   width: 100px;
   height: 100px;
-}
+} */
 
-nav ul {
+header ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,28 +43,69 @@ nav ul {
   padding: 0;
 }
 
-nav ul a {
+header ul a {
   text-decoration: none;
   color: var(--header-link-text-color);
 }
 
 .hero {
   background-color: var(--hero-footer-dark-color);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.hero div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 50px;
+}
+
+.hero img {
+  width: 70vw;
+  height: 70vh;
 }
 
 .hero .main-text {
   font-size: 48px;
   font-weight: bolder;
   color: var(--hero-main-text-color);
+  /* margin-left: 40px; */
 }
 
 .hero .secondary-text {
   font-size: 18px;
   color: var(--hero-secondary-text-color);
+  /* margin-left: 40px; */
+}
+
+.hero .sign-up-hero {
+  padding: 5px 25px;
+  /* margin-left: 40px; */
+  background-color: var(--cta-color);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero .sign-up-hero a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
 
 .info h2 {
   font-size: 36px;
   font-weight: bolder;
   color: var(--info-header-text-color);
+}
+
+.testimonial {
+  background-color: var(--quote-section-bg);
+}
+
+.cta {
+  background-color: var(--cta-color);
 }
