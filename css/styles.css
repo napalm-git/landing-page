@@ -96,8 +96,8 @@ header ul a {
   line-height: 26px;
 }
 
-.hero .sign-up-hero {
-  padding: 5px 25px;
+.hero .sign-up-button-hero {
+  padding: 10px 25px;
   background-color: var(--cta-color);
   border-radius: 5px;
   border: none;
@@ -107,7 +107,7 @@ header ul a {
   font-weight: bold;
 }
 
-.hero .sign-up-hero a {
+.hero .sign-up-button-hero a {
   text-decoration: none;
   color: #e5e7eb;
 }
@@ -182,18 +182,32 @@ header ul a {
   color: var(--hero-main-text-color);
 }
 
-.cta .div {
+.cta .cta-left {
   display: flex;
   flex-direction: column;
   align-items: baseline;
 }
 
-.cta .sign-up-cta {
-  padding: 5px 25px;
+.cta .sign-up-button-cta {
+  padding: 10px 25px;
   background-color: var(--cta-color);
   border-radius: 5px;
   border: 2px solid #fff;
-  color: #f9faf8;
   cursor: pointer;
   font-weight: bold;
+}
+
+.cta .sign-up-button-cta a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.hero .sign-up-button-hero:hover {
+  background-color: #2662c2;
+  transition: all 0.5s ease;
+}
+
+.cta .sign-up-button-cta:hover {
+  background-color: #2662c2;
+  transition: all 0.5s ease;
 }
