@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
 
 * {
   margin: 0;
@@ -104,6 +104,7 @@ header ul a {
   cursor: pointer;
   margin: 0 auto;
   margin-top: 5px;
+  font-weight: bold;
 }
 
 .hero .sign-up-hero a {
@@ -113,7 +114,7 @@ header ul a {
 
 .info {
   background-color: #fefffd;
-  padding: 20px;
+  padding: 30px;
 }
 
 .info-container {
@@ -122,6 +123,7 @@ header ul a {
   justify-content: center;
   flex-wrap: nowrap;
   gap: 8px;
+  padding: 44px;
 }
 
 .info-one,
@@ -153,24 +155,45 @@ header ul a {
   border-radius: 16px;
 }
 
-.testimonial {
+.quote {
   background-color: var(--quote-section-bg);
   padding: 65px;
   text-align: center;
 }
 
+.quote .quote-text {
+  font-size: 36px;
+  color: var(--quote-text);
+  font-style: italic;
+}
+
+.quote .author {
+  text-align: right;
+  margin-top: 24px;
+}
+
 .cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: var(--cta-color);
   padding: 45px;
   text-align: center;
+  color: var(--hero-main-text-color);
+}
+
+.cta .div {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .cta .sign-up-cta {
   padding: 5px 25px;
-  background-color: #fff;
+  background-color: var(--cta-color);
   border-radius: 5px;
-  border: none;
+  border: 2px solid #fff;
+  color: #f9faf8;
   cursor: pointer;
-  margin: 0 auto;
-  margin-top: 5px;
+  font-weight: bold;
 }
