@@ -32,11 +32,9 @@ header {
   background-color: var(--hero-footer-dark-color);
   font-size: 18px;
   color: var(--header-logo-text-color);
-  padding: 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--hero-footer-dark-color);
   padding: 20px;
 }
 
@@ -74,6 +72,7 @@ header ul a {
   align-items: flex-start;
   justify-content: center;
   gap: 7px;
+  padding: 20px;
 }
 
 .hero img {
@@ -81,19 +80,18 @@ header ul a {
   height: 100%;
   display: block;
   margin: 0;
+  border-radius: 16px;
 }
 
 .hero .main-text {
-  font-size: 48px;
+  font-size: 37px;
   font-weight: bolder;
   color: var(--hero-main-text-color);
-  text-align: center;
 }
 
 .hero .secondary-text {
   font-size: 18px;
   color: var(--hero-secondary-text-color);
-  text-align: center;
   letter-spacing: 1.2px;
   line-height: 26px;
 }
@@ -108,16 +106,6 @@ header ul a {
   margin-top: 5px;
 }
 
-.cta .sign-up-cta {
-  padding: 5px 25px;
-  background-color: #fff;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  margin: 0 auto;
-  margin-top: 5px;
-}
-
 .hero .sign-up-hero a {
   text-decoration: none;
   color: #e5e7eb;
@@ -125,6 +113,7 @@ header ul a {
 
 .info {
   background-color: #fefffd;
+  padding: 20px;
 }
 
 .info-container {
@@ -156,12 +145,12 @@ header ul a {
   color: var(--info-header-text-color);
   text-align: center;
   margin-bottom: 24px;
-  margin-top: 10px;
 }
 
 .info img {
   width: 100px;
   height: 100px;
+  border-radius: 16px;
 }
 
 .testimonial {
@@ -174,4 +163,14 @@ header ul a {
   background-color: var(--cta-color);
   padding: 45px;
   text-align: center;
+}
+
+.cta .sign-up-cta {
+  padding: 5px 25px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 5px;
 }
