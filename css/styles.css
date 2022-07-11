@@ -211,3 +211,30 @@ header ul a {
   background-color: #2662c2;
   transition: all 0.5s ease;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #f9faf8;
+  background-color: var(--hero-footer-dark-color);
+  padding: 24px;
+}
+
+.footer img {
+  width: 24px;
+  height: 100%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
