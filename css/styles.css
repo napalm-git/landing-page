@@ -84,7 +84,7 @@ header ul a {
 }
 
 .hero .main-text {
-  font-size: 37px;
+  font-size: 32px;
   font-weight: bolder;
   color: var(--hero-main-text-color);
 }
@@ -103,7 +103,7 @@ header ul a {
   border: none;
   cursor: pointer;
   margin: 0 auto;
-  margin-top: 5px;
+  margin-top: 15px;
   font-weight: bold;
 }
 
